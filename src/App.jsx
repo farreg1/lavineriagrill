@@ -15,7 +15,7 @@ import TestimonialPage from './pages/TestimonialPage';
 
 function App() {
   return (
-    <Router>
+    <Router basename="/lavineriagrill/">
       <Routes>
         {/* Define una ruta para cada página */}
         <Route path="/" element={<HomePage />} />
