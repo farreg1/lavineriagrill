@@ -100,7 +100,7 @@
 
 .navbar-dark .navbar-nav .nav-link:hover,
 .navbar-dark .navbar-nav .nav-link.active {
-    color: var(--primary) !important;
+    color: #feaf39 !important;
 }
 
 .navbar-dark .navbar-brand img {
@@ -112,7 +112,7 @@
 }
 
 .sticky-top.navbar-dark .navbar-brand img {
-    max-height: 45px;
+max-height: 96px;
 }
 .title{
     color: var(--base);
@@ -151,7 +151,7 @@
     
     .sticky-top.navbar-dark {
         position: fixed;
-        background: var(--contraste) !important;
+        background: #5E334D !important;
     }
 }
 
@@ -489,4 +489,38 @@
     margin-right: 0;
     padding-right: 0;
     border-right: none;
+}
+
+/* Language Switcher */
+.language-switcher button {
+    padding: 5px 10px;
+    border: 1px solid var(--primary);
+    border-radius: 5px;
+    background: transparent;
+    color: var(--primary);
+    cursor: pointer;
+    transition: background-color 0.3s, color 0.3s;
+}
+.language-switcher  {
+    padding: 5px 10px;
+
+}
+.lang-active{
+
+    background: #c2c2c2 !important;
+}
+.lang-inactive{
+
+    background: #ffffff !important;
+}
+.lang-inactive:hover{
+    background-color: #feaf39 !important;
+    color: var(--primary);
+}
+/* ABOUT */
+.about-img{
+    object-fit: contain;
+}
+#firstImg{
+    place-self: end;
 }
