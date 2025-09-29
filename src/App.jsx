@@ -10,6 +10,7 @@ import MenuPage from './pages/MenuPage';
 import ContactPage from './pages/ContactPage';
 import LocationPage from './pages/LocationPage';
 import TestimonialPage from './pages/TestimonialPage';
+import PriceManager from './components/priceManager';
 
 // ...importa las páginas que falten (ej. BookingPage)
 
@@ -22,10 +23,10 @@ function App() {
         <Route path="/about" element={<AboutPage />} />
         <Route path="/service" element={<ServicePage />} />
         <Route path="/menu" element={<MenuPage />} />
-        <Route path="/contact" element={<ContactPage />} />
+        
         <Route path="/location" element={<LocationPage />} />
         <Route path="/testimonial" element={<TestimonialPage />} />
-        {/* ...añade las rutas que falten */}
+        <Route path="/admin-prices" element={<PriceManager />} />
       </Routes>
     </Router>
   );

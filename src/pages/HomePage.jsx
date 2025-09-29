@@ -23,7 +23,7 @@ function HomePage() {
       {/* 2. Añade el resto de los componentes en el orden correcto */}
       <Services />
       <About />
-        <Menu featuredOnly={true} />
+      <Menu featuredOnly={true} />
       <Location />
       <Testimonial />
       <Footer />

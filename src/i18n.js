@@ -53,7 +53,58 @@ i18n
           location_subtitle: "Ubicación",
           location_title: "¿Dónde Encontrarnos?",
           location_map_title: "Mapa de La Vinería Grill",
-          location_button: "Ver en Google Maps"
+          location_button: "Ver en Google Maps",
+           // --- Admin ---
+          manager_login_title: 'Acceso de Administrador',
+          manager_password_label: 'Contraseña',
+          manager_login_button: 'Ingresar',
+          manager_login_error: 'Contraseña incorrecta',
+          manager_edit_title: 'Editar Precios del Menú',
+          manager_logout_button: 'Cerrar Sesión',
+          manager_note: 'Los precios guardados son válidos para el navegador en uso. Para que los cambios sean visibles, deben ser guardados.',
+          manager_save_button: 'Guardar Precios',
+          manager_saved_message: '¡Precios guardados y actualizados!',
+          // --- Navbar ---
+          navHome: 'Inicio',
+          navAbout: 'Nosotros',
+          navServices: 'Servicios',
+          navMenu: 'Menú',
+          navContact: 'Contacto',
+          navDropdownTitle: 'Idioma', // Nueva clave para el título del menú desplegable
+          navBooking: 'Reservar Mesa', // Nueva clave para el botón y enlace de reserva
+          navTeam: 'Nuestro Equipo', // Nueva clave para el enlace /team
+          navTestimonial: 'Testimonios', // Nueva clave para el enlace /testimonial
+          // --- Footer --- 👈 Nuevo bloque
+          footerCompanyTitle: 'Compañía',
+          footerAbout: 'Nosotros',
+          footerContact: 'Contacto',
+          footerReservation: 'Reservas',
+          footerPrivacy: 'Política de Privacidad',
+          footerTerms: 'Términos y Condiciones',
+          
+          footerContactTitle: 'Contacto',
+          footerAddress: '123 Calle, Ciudad, País', // Ajusta si tienes una dirección real
+          footerPhone: '+012 345 67890', // Ajusta si tienes un teléfono real
+          footerEmail: 'info@example.com', // Ajusta si tienes un email real
+          
+          footerOpeningTitle: 'Horarios',
+          footerDays: 'Lunes - Sábado',
+          footerSunday: 'Domingo',
+          footerHoursWeek: '09AM - 09PM', // Horario real
+          footerHoursSunday: '10AM - 08PM', // Horario real
+          
+          footerNewsletterTitle: 'Newsletter',
+          footerNewsletterText: 'Suscríbete para recibir nuestras últimas novedades y ofertas especiales.',
+          footerEmailPlaceholder: 'Tu correo electrónico',
+          footerSignUpButton: 'Suscribirse',
+
+          footerCopyright: '© Tu Nombre del Sitio, Todos los derechos reservados.',
+          footerDesignedBy: 'Diseñado por',
+          
+          footerMenuHome: 'Inicio',
+          footerMenuCookies: 'Cookies',
+          footerMenuHelp: 'Ayuda',
+          footerMenuFaqs: 'Preguntas Frecuentes',
 
         }
       },
@@ -101,8 +152,59 @@ i18n
           location_subtitle: "Location",
           location_title: "Where To Find Us",
           location_map_title: "La Vinería Grill Map",
-          location_button: "View on Google Maps"
-        
+          location_button: "View on Google Maps",
+                     // --- Admin ---
+          manager_login_title: 'Acceso de Administrador',
+          manager_password_label: 'Contraseña',
+          manager_login_button: 'Ingresar',
+          manager_login_error: 'Contraseña incorrecta',
+          manager_edit_title: 'Editar Precios del Menú',
+          manager_logout_button: 'Cerrar Sesión',
+          manager_note: 'Los precios guardados son válidos para el navegador en uso. Para que los cambios sean visibles, deben ser guardados.',
+          manager_save_button: 'Guardar Precios',
+          manager_saved_message: '¡Precios guardados y actualizados!',
+        // --- Navbar ---
+          navHome: 'Home',
+          navAbout: 'About',
+          navServices: 'Service',
+          navMenu: 'Menu',
+          navContact: 'Contact',
+          navDropdownTitle: 'Language', // Nueva clave para el título del menú desplegable
+          navBooking: 'Book A Table', // Nueva clave para el botón y enlace de reserva
+          navTeam: 'Our Team', // Nueva clave para el enlace /team
+          navTestimonial: 'Testimonial', // Nueva clave para el enlace /testimonial
+          // --- Footer --- 👈 Nuevo bloque
+          footerCompanyTitle: 'Company',
+          footerAbout: 'About Us',
+          footerContact: 'Contact Us',
+          footerReservation: 'Reservation',
+          footerPrivacy: 'Privacy Policy',
+          footerTerms: 'Terms & Condition',
+
+          footerContactTitle: 'Contact',
+          footerAddress: '123 Street, City, Country', // Adjust if you have a real address
+          footerPhone: '+012 345 67890', // Adjust if you have a real phone
+          footerEmail: 'info@example.com', // Adjust if you have a real email
+
+          footerOpeningTitle: 'Opening',
+          footerDays: 'Monday - Saturday',
+          footerSunday: 'Sunday',
+          footerHoursWeek: '09AM - 09PM', // Real hours
+          footerHoursSunday: '10AM - 08PM', // Real hours
+
+          footerNewsletterTitle: 'Newsletter',
+          footerNewsletterText: 'Subscribe to receive our latest news and special offers.',
+          footerEmailPlaceholder: 'Your email',
+          footerSignUpButton: 'Sign Up',
+          
+          footerCopyright: '© Your Site Name, All Right Reserved.',
+          footerDesignedBy: 'Designed By',
+
+          footerMenuHome: 'Home',
+          footerMenuCookies: 'Cookies',
+          footerMenuHelp: 'Help',
+          footerMenuFaqs: 'FQAs',
+
         }
       }
     },
