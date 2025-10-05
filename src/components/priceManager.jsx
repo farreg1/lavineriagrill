@@ -112,8 +112,8 @@ const PriceManager = () => {
             <div key={item.id} className="col-md-6 col-lg-4">
               <div className="card h-100 shadow-sm">
                 <div className="card-body">
-                  <h5 className="card-title">{item.name[currentLanguage] || item.name.es}</h5>
-                  <p className="card-text text-muted small">{item.description[currentLanguage] || item.description.es}</p>
+                  <h5 className="card-title">{item.name?.[currentLanguage] || item.name?.es}</h5>
+                  <p className="card-text text-muted small">{item.description?.[currentLanguage] || item.description?.es}</p>
                   <div className="input-group mt-3">
                     <span className="input-group-text">$</span>
                     <input

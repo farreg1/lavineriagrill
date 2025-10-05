@@ -83,14 +83,14 @@ i18n
           footerTerms: 'Términos y Condiciones',
           
           footerContactTitle: 'Contacto',
-          footerAddress: '123 Calle, Ciudad, País', // Ajusta si tienes una dirección real
-          footerPhone: '+012 345 67890', // Ajusta si tienes un teléfono real
+          footerAddress: 'Andreas Madsen N° 71, El Chalten, Santa Cruz', // Ajusta si tienes una dirección real
+          footerPhone: '+54 9 2966 44-8001', // Ajusta si tienes un teléfono real
           footerEmail: 'info@example.com', // Ajusta si tienes un email real
           
           footerOpeningTitle: 'Horarios',
-          footerDays: 'Lunes - Sábado',
+          footerDays: 'Lunes - Domingo',
           footerSunday: 'Domingo',
-          footerHoursWeek: '09AM - 09PM', // Horario real
+          footerHoursWeek: '18:00 - 23:30', // Horario real
           footerHoursSunday: '10AM - 08PM', // Horario real
           
           footerNewsletterTitle: 'Newsletter',
@@ -98,7 +98,7 @@ i18n
           footerEmailPlaceholder: 'Tu correo electrónico',
           footerSignUpButton: 'Suscribirse',
 
-          footerCopyright: '© Tu Nombre del Sitio, Todos los derechos reservados.',
+          footerCopyright: '© La Vineria Grill, Todos los derechos reservados.',
           footerDesignedBy: 'Diseñado por',
           
           footerMenuHome: 'Inicio',
@@ -182,14 +182,14 @@ i18n
           footerTerms: 'Terms & Condition',
 
           footerContactTitle: 'Contact',
-          footerAddress: '123 Street, City, Country', // Adjust if you have a real address
-          footerPhone: '+012 345 67890', // Adjust if you have a real phone
+          footerAddress: 'Andreas Madsen N° 71, El Chalten, Santa Cruz', // Adjust if you have a real address
+          footerPhone: '+54 9 2966 44-8001', // Adjust if you have a real phone
           footerEmail: 'info@example.com', // Adjust if you have a real email
 
           footerOpeningTitle: 'Opening',
-          footerDays: 'Monday - Saturday',
+          footerDays: 'Monday - Sunday',
           footerSunday: 'Sunday',
-          footerHoursWeek: '09AM - 09PM', // Real hours
+          footerHoursWeek: '06PM - 11:30PM', // Real hours
           footerHoursSunday: '10AM - 08PM', // Real hours
 
           footerNewsletterTitle: 'Newsletter',
@@ -197,7 +197,7 @@ i18n
           footerEmailPlaceholder: 'Your email',
           footerSignUpButton: 'Sign Up',
           
-          footerCopyright: '© Your Site Name, All Right Reserved.',
+          footerCopyright: '© La Vineria Grill, All Right Reserved.',
           footerDesignedBy: 'Designed By',
 
           footerMenuHome: 'Home',

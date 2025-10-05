@@ -16,7 +16,8 @@ function Footer() {
             {/* Los enlaces de navegación deben usar Link de react-router-dom si son internos */}
             <a className="btn btn-link" href="/about">{t('footerAbout')}</a>
             <a className="btn btn-link" href="/contact">{t('footerContact')}</a>
-            <a className="btn btn-link" href="/booking">{t('footerReservation')}</a>
+            <a className="btn btn-link"   target="_blank" 
+  rel="noopener noreferrer" href="https://wa.me/5492966448001">{t('footerReservation')}</a>
             {/* Estos son ejemplos de enlaces externos o legales */}
             <a className="btn btn-link" href="/#">{t('footerPrivacy')}</a>
             <a className="btn btn-link" href="/#">{t('footerTerms')}</a>
@@ -27,7 +28,7 @@ function Footer() {
             <h4 className="section-title ff-secondary text-start text-primary fw-normal mb-4">{t('footerContactTitle')}</h4>
             <p className="mb-2"><i className="fa fa-map-marker-alt me-3"></i>{t('footerAddress')}</p>
             <p className="mb-2"><i className="fa fa-phone-alt me-3"></i>{t('footerPhone')}</p>
-            <p className="mb-2"><i className="fa fa-envelope me-3"></i>{t('footerEmail')}</p>
+            {/* <p className="mb-2"><i className="fa fa-envelope me-3"></i>{t('footerEmail')}</p> */}
             {/* <div className="d-flex pt-2">
               <a className="btn btn-outline-light btn-social" href="/#"><i className="fab fa-twitter"></i></a>
               <a className="btn btn-outline-light btn-social" href="/#"><i className="fab fa-facebook-f"></i></a>
@@ -41,8 +42,6 @@ function Footer() {
             <h4 className="section-title ff-secondary text-start text-primary fw-normal mb-4">{t('footerOpeningTitle')}</h4>
             <h5 className="text-light fw-normal">{t('footerDays')}</h5>
             <p>{t('footerHoursWeek')}</p>
-            <h5 className="text-light fw-normal">{t('footerSunday')}</h5>
-            <p>{t('footerHoursSunday')}</p>
           </div>
         </div>
       </div>

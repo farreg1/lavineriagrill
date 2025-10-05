@@ -49,7 +49,14 @@ function Navbar() {
           
         </div>
         {/* Botón de "Reservar Mesa" */}
-        <Link to="/booking" className="btn btn-primary py-2 px-4">{t('navBooking')}</Link> 
+       <a 
+  href="https://wa.me/5492966448001" 
+  className="btn btn-primary py-2 px-4" 
+  target="_blank" 
+  rel="noopener noreferrer"
+>
+  {t('navBooking')}
+</a>
       </div>
     </nav>
   );

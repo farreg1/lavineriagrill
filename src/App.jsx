@@ -16,7 +16,7 @@ import PriceManager from './components/priceManager';
 
 function App() {
   return (
-    <Router basename="/lavineriagrill/">
+    <Router >
       <Routes>
         {/* Define una ruta para cada página */}
         <Route path="/" element={<HomePage />} />
