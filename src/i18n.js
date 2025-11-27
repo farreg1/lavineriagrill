@@ -49,6 +49,11 @@ i18n
           menu_tab_pastas: 'Pastas',
           menu_tab_desserts: 'Postres',
           see_full_menu: 'Ver Menú Completo',
+          menu_tab_sides_group: 'Acompañamientos & Regional',
+            menu_tab_sides: 'Guarniciones',
+            menu_tab_salads: 'Ensaladas',
+            menu_tab_regional: 'Platos Regionales',
+            menu_tab_infusions: 'Infusiones',
           // --- Ubicación ---
           location_subtitle: "Ubicación",
           location_title: "¿Dónde Encontrarnos?",
@@ -148,6 +153,11 @@ i18n
           menu_tab_pastas: 'Pastas',
           menu_tab_desserts: 'Desserts',
             see_full_menu: 'See Full Menu',
+            menu_tab_sides_group: 'Sides & Regional',
+            menu_tab_sides: 'Side Dishes',
+            menu_tab_salads: 'Salads',
+            menu_tab_regional: 'Regional Dishes',
+            menu_tab_infusions: 'Hot Drinks',
             // --- Location ---
           location_subtitle: "Location",
           location_title: "Where To Find Us",
