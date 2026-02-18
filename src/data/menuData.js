@@ -36,7 +36,7 @@ export const menuData = {
       id: 5,
       name: { es: 'Tabla de salamín y queso', en: 'Salami and cheese platter' },
       description: { es: 'Salame tipo fuet, queso fontina y aceitunas mixtas.', en: 'Salami fuet style, fontina cheese and mix of olives platter.' },
-      price: 13500, // Actualizado de 8700
+      price: 15000, // Actualizado de 8700
       image: '/img/menu-5.jpg',
     },
     {
@@ -64,7 +64,7 @@ export const menuData = {
       id: 8,
       name: { es: 'Brochetas de langostino al grill', en: 'Grilled prawn brochette' },
       description: { es: 'Acompañados de vegetales frescos grillados.', en: 'Accompanied by fresh grilled vegetables.' },
-      price: 18000, // Actualizado de 12500
+      price: 25000, // Actualizado de 12500
       image: '/img/menu-8.jpg',
       featured: true,
     },
@@ -116,7 +116,7 @@ export const menuData = {
       id: 15,
       name: { es: 'Mix de achuras', en: 'Mix of sausage & offals' },
       description: { es: 'Chorizo, morcilla, molleja, riñón y provoleta.', en: 'Argentinian sausage, blood sausage, sweetbreads, kidney and provolone cheese.' },
-      price: 28000, // Actualizado de 23000 (El CSV no menciona molleja ni riñon, solo "Chorizo, morcilla, riñon, y provoleta", pero se mantiene la descripción original en el JS.)
+      price: 31000, // Actualizado de 23000 (El CSV no menciona molleja ni riñon, solo "Chorizo, morcilla, riñon, y provoleta", pero se mantiene la descripción original en el JS.)
       image: '/img/menu-8.jpg',
     },
   ],
@@ -136,16 +136,16 @@ export const menuData = {
     { id: 22, name: { es: 'Carnes Maduradas: Bife de costilla/Tomahawk (550g)', en: 'Dry age steak: Tomahawk (1.8 lbs)' }, description: { es: 'Curación lenta y controlada de temperatura, humedad y circulación de aire.', en: 'Slow and controlled curing process.' }, price: 77000, category: 'Carnes Maduradas' }, // Actualizado de 60000
     { id: 23, name: { es: 'Carnes Maduradas: Bife de chorizo (450g)', en: 'Dry age steak: New York strip loin (1 lbs)' }, price: 58500, category: 'Carnes Maduradas' }, // Actualizado de 45000
     // --- Parrilladas Mixtas ---
-    { id: 24, name: { es: 'Parrillada de Mar c/guarnición (2p)', en: 'Mix Grilled Seafood with side dish (2p)' }, description: { es: 'Pulpo, langostinos, salmón, vieira, centolla. Acompañado de puré mixto y ensalada.', en: 'Octopus, prawn, salmon, scallop, crab with mixed puree and salad.' }, price: 154000, category: 'Parrilladas Mixtas' }, // Actualizado de 110000
+    { id: 24, name: { es: 'Parrillada de Mar c/guarnición (2p)', en: 'Mix Grilled Seafood with side dish (2p)' }, description: { es: 'Pulpo, langostinos, salmón, vieira, centolla. Acompañado de puré mixto y ensalada.', en: 'Octopus, prawn, salmon, scallop, crab with mixed puree and salad.' }, price: 177000, category: 'Parrilladas Mixtas' }, // Actualizado de 110000
     { id: 25, name: { es: 'Mix de carnes c/guarnición (2p)', en: 'Mix of Meats with side dish(2p)' }, description: { es: 'Ternera 200g, Cerdo 200g, Cordero 200g, Pollo 200g, Guanaco 200g, acompañado de papas fritas y ensalada.', en: 'Beef 200 g, Pork 200 g, Lamb 200 g, Chicken 200g. Guanaco 200g with french fries and salad.' }, price: 132000, category: 'Parrilladas Mixtas' }, // Actualizado de 93000
     // --- Cerdo ---
     { id: 26, name: { es: 'Bife de bondiola pintada (450g)', en: 'Pork shoulder fillet (1 lbs)' }, description: { es: 'Con mostaza y chutney.', en: 'With mustard and chutney.' }, price: 36000, category: 'Cerdo' }, // Actualizado de 26000
     { id: 27, name: { es: 'Matambrito de cerdo', en: 'Pork flank steak' }, price: 36000, category: 'Cerdo' }, // Actualizado de 26000
     // --- Cordero ---
-    { id: 28, name: { es: 'Porción de cordero (Costilla y pata)', en: 'Lamb (Rack, leg and shoulder of lamb)' }, price: 38500, category: 'Cordero' }, // Actualizado de 33000
+    { id: 28, name: { es: 'Porción de cordero (Costilla y pata)', en: 'Lamb (Rack, leg and shoulder of lamb)' }, price: 42000, category: 'Cordero' }, // Actualizado de 33000
     // --- Pescado ---
-    { id: 29, name: { es: 'Salmón rosado', en: 'Salmon steak' }, price: 52000, category: 'Pescado' }, // Actualizado de 38000
-    { id: 30, name: { es: 'Trucha', en: 'Trout' }, price: 45000, category: 'Pescado' }, // Actualizado de 32000
+    { id: 29, name: { es: 'Salmón rosado', en: 'Salmon steak' }, price: 62000, category: 'Pescado' }, // Actualizado de 38000
+    { id: 30, name: { es: 'Trucha', en: 'Trout' }, price: 54000, category: 'Pescado' }, // Actualizado de 32000
     // --- Guanaco ---
     { id: 31, name: { es: 'Bife de Guanaco (450g)', en: 'Guanaco steak (1 lbs)' }, price: 38500, category: 'Guanaco' }, // Actualizado de 30000
   ],
@@ -166,7 +166,7 @@ export const menuData = {
       id: 33,
       name: { es: 'Raviolones de remolacha rellenos de trucha', en: 'Trout stuffed beet ravioli' },
       description: { es: 'Trucha ahumada y curada en masa de remolacha en salsa de puerros y crema de leche.', en: 'Beet ravioli with a smoked and cured trout filling topped with a leek cream sauce.' },
-      price: 33000, // Actualizado de 27000
+      price: 35000, // Actualizado de 27000
     },
     {
       id: 34,
@@ -184,7 +184,7 @@ export const menuData = {
     {
       id: 36,
       name: { es: 'Risoto de hongos', en: 'Mushroom Risotto' },
-      description: { es: 'Cremoso de arroz con champignones, portobello y hongos de pino. (Opción Mariscos +45000)', en: 'Creamy rice cooked with a mix of sliced pine, portobello and button mushrooms. (SEAFOOD OPTION +45000)' },
+      description: { es: 'Cremoso de arroz con champignones, portobello y hongos de pino. (Opción Mariscos +18000)', en: 'Creamy rice cooked with a mix of sliced pine, portobello and button mushrooms. (SEAFOOD OPTION +45000)' },
       price: 40000, // Actualizado de 29000
     },
     {
@@ -260,14 +260,14 @@ export const menuData = {
     },
   ],
 side_dishes: [
-    { id: 47, name: { es: 'Mix de vegetales grillados', en: 'Mixed grilled vegetables' }, price: 18000, },
-    { id: 48, name: { es: 'Morrones rellenos con huevo y queso cremoso', en: 'Bell peppers stuffed with egg and creamy cheese' }, price: 15400, },
-    { id: 49, name: { es: 'Papas fritas', en: 'French fries' }, price: 13000, },
-    { id: 50, name: { es: 'Puré de papas con panceta y verdeo', en: 'Mashed potatoes with bacon and chives' }, price: 10000, },
-    { id: 51, name: { es: 'Puré de calabaza con pasas al Malbec', en: 'Pumpkin puree with Malbec raisins' }, price: 10000, },
-    { id: 52, name: { es: 'Puré de batatas con miel', en: 'Sweet potato puree with honey' }, price: 10000, },
-    { id: 53, name: { es: 'Papa plomo con queso crema y verdeo', en: 'Baked potato with cream cheese and chives' }, price: 13000, },
-    { id: 54, name: { es: 'Cazuela de champignones, ajo, morrón y cebollas moradas', en: 'Casserole of mushrooms, garlic, pepper and red onions' }, price: 18000, },
+    { id: 47, name: { es: 'Mix de vegetales grillados', en: 'Mixed grilled vegetables' }, price: 20000, },
+    { id: 48, name: { es: 'Morrones rellenos con huevo y queso cremoso', en: 'Bell peppers stuffed with egg and creamy cheese' }, price: 17000, },
+    { id: 49, name: { es: 'Papas fritas', en: 'French fries' }, price: 15000, },
+    { id: 50, name: { es: 'Puré de papas con panceta y verdeo', en: 'Mashed potatoes with bacon and chives' }, price: 13000, },
+    { id: 51, name: { es: 'Puré de calabaza con pasas al Malbec', en: 'Pumpkin puree with Malbec raisins' }, price: 13000, },
+    { id: 52, name: { es: 'Puré de batatas con miel', en: 'Sweet potato puree with honey' }, price: 13000, },
+    { id: 53, name: { es: 'Papa plomo con queso crema y verdeo', en: 'Baked potato with cream cheese and chives' }, price: 15000, },
+    { id: 54, name: { es: 'Cazuela de champignones, ajo, morrón y cebollas moradas', en: 'Casserole of mushrooms, garlic, pepper and red onions' }, price: 20000, },
   ],
 
   // ======================================================
@@ -284,9 +284,9 @@ side_dishes: [
   // PLATOS REGIONALES / REGIONAL DISHES
   // ======================================================
   regional_dishes: [
-    { id: 62, name: { es: 'Garrón de cordero con papa a la antigua "Sous Vide"', en: 'Lamb shank with "Sous Vide" old-style potato' }, price: 64000, featured: true, },
-    { id: 63, name: { es: 'Trucha Patagónica con risotto de 3 quinoa "Sous Vide"', en: 'Patagonian Trout with "Sous Vide" 3 quinoa risotto' }, price: 64000, },
-    { id: 64, name: { es: 'Guanaco gratinado', en: 'Gratinated Guanaco' }, price: 53000, },
+    { id: 62, name: { es: 'Garrón de cordero con papa a la antigua "Sous Vide"', en: 'Lamb shank with "Sous Vide" old-style potato' }, price: 70000, featured: true, },
+    { id: 63, name: { es: 'Trucha Patagónica con risotto de 3 quinoa "Sous Vide"', en: 'Patagonian Trout with "Sous Vide" 3 quinoa risotto' }, price: 70000, },
+    { id: 64, name: { es: 'Guanaco gratinado', en: 'Gratinated Guanaco' }, price: 58000, },
   ],
 
   // ======================================================
